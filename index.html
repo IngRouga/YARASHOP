@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yara Shop</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Yara Shop – Au bonheur des enfants. Vêtements, pyjamas, survêtements et chaussures pour bébés, filles et garçons. Commande simple sur WhatsApp.">
+<meta property="og:title" content="Yara Shop – Au bonheur des enfants">
+<meta property="og:description" content="Vêtements et chaussures pour enfants. Commandez sur WhatsApp : +227 99 56 56 03.">
+<meta property="og:image" content="images/ensemble-noeud-porte.jpg">
+<link rel="icon" type="image/png" href="images/logo-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#accueil" aria-label="Yara Shop, accueil">
+      <img src="images/logo-icon.png" alt="" width="44" height="43">
+      <span class="brand-text"><span class="b-yara">Yara</span> <span class="b-shop">Shop</span><small>Au bonheur des enfants</small></span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#boutique">Boutique</a>
+      <a href="#bebe">Spécial bébé</a>
+      <a href="#commander">Commander</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-btn" id="cartOpen" type="button" aria-label="Ouvrir le panier">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 7h12l-1.2 11.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 9V6a3 3 0 0 1 6 0v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>Panier</span>
+      <b class="cart-count" id="cartCount">0</b>
+    </button>
+  </div>
+</header>
+
+<main id="accueil">
+
+  <!-- HERO -->
+  <section class="hero">
+    <svg class="waves" viewBox="0 0 220 160" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.6"><path d="M0 10 q14 -10 28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0"/><path d="M0 26 q14 -10 28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0"/><path d="M0 42 q14 -10 28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0"/><path d="M0 58 q14 -10 28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0"/><path d="M0 74 q14 -10 28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0"/><path d="M0 90 q14 -10 28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0"/><path d="M0 106 q14 -10 28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0"/></g></svg>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Boutique pour enfants · Bébé, filles, garçons</p>
+        <h1>Au bonheur<br>des <span class="hl-pink">enfants</span></h1>
+        <p class="lead">Ensembles, survêtements, pyjamas et chaussures pour les petits. Choisissez vos articles, envoyez votre commande sur WhatsApp, et nous vous confirmons la taille, le prix et la disponibilité.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#boutique">Voir la boutique</a>
+          <a class="btn btn-wa" href="https://wa.me/22799565603?text=Bonjour%20Yara%20Shop%20%F0%9F%91%8B%20Je%20souhaite%20passer%20une%20commande." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3Z"/></svg>
+            Commander sur WhatsApp
+          </a>
+        </div>
+        <ul class="hero-facts">
+          <li><b>14</b> modèles en vitrine</li>
+          <li><b>3</b> étapes pour commander</li>
+          <li><b>+227 99 56 56 03</b> sur WhatsApp</li>
+        </ul>
+      </div>
+      <div class="hero-visual">
+        <figure class="arch arch-blue"><img src="images/ensemble-noeud-porte.jpg" alt="Petite fille souriante en tunique marine à nœud rayé et leggings rayés rouge et blanc" width="900" height="1204"></figure>
+        <figure class="arch arch-pink"><img src="images/ensemble-cardigan-rose.jpg" alt="Petite fille en cardigan rose et jupe plissée beige" width="736" height="981"></figure>
+        <span class="sticker">Nouvelle<br>collection</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATALOGUE -->
+  <section class="shop" id="boutique">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">La boutique</p>
+          <h2>Nos articles</h2>
+        </div>
+        <p class="section-note">Touchez un article pour choisir la couleur et la taille, puis ajoutez-le au panier.</p>
+      </div>
+      <div class="filters" role="tablist" aria-label="Filtrer par catégorie" id="filters"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- BEBE -->
+  <section class="baby" id="bebe">
+    <div class="wrap baby-grid">
+      <figure class="baby-photo"><img src="images/maman-bebe.jpg" alt="Maman tenant tendrement son nouveau-né contre elle" width="800" height="1100" loading="lazy"></figure>
+      <div class="baby-copy">
+        <p class="eyebrow">Spécial futures mamans</p>
+        <h2>Comment préparer l'arrivée de <span class="hl-pink">bébé</span> ?</h2>
+        <p>Un moment plein de joie, et parfois un peu de stress. Voici nos quatre conseils pour vous préparer sereinement.</p>
+        <ol class="tips">
+          <li><h3>Achetez les essentiels à l'avance</h3><p>Faites la liste : couches, vêtements, biberons, produits d'hygiène. Les avoir avant le terme évite le stress de dernière minute.</p></li>
+          <li><h3>Préparez la valise de maternité</h3><p>Vêtements confortables pour vous, tenues pour bébé, articles de toilette et documents importants.</p></li>
+          <li><h3>Renseignez-vous sur l'allaitement ou le biberon</h3><p>Positions confortables et techniques d'allaitement, ou biberons et lait adapté si vous choisissez le biberon.</p></li>
+          <li><h3>Préparez-vous émotionnellement</h3><p>Parlez avec d'autres mamans, lisez sur la maternité et n'hésitez pas à demander de l'aide.</p></li>
+        </ol>
+        <p class="reassure">Et surtout : tout va bien se passer.</p>
+        <a class="btn btn-primary" href="#boutique" data-jump="bebe">Voir les articles bébé</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMANDER -->
+  <section class="order" id="commander">
+    <div class="wrap">
+      <div class="section-head center">
+        <div>
+          <p class="eyebrow">Simple et rapide</p>
+          <h2>Comment commander</h2>
+        </div>
+      </div>
+      <ol class="steps">
+        <li><span class="step-n">1</span><h3>Choisissez</h3><p>Ouvrez un article, sélectionnez la couleur, la taille ou la pointure, puis ajoutez-le au panier.</p></li>
+        <li><span class="step-n">2</span><h3>Envoyez sur WhatsApp</h3><p>Le panier prépare votre message avec la liste des articles. Un seul bouton pour l'envoyer.</p></li>
+        <li><span class="step-n">3</span><h3>Recevez la confirmation</h3><p>Nous vous répondons avec le prix, la disponibilité et les modalités de retrait ou de livraison.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="wrap"><div class="contact-box">
+      <div>
+        <p class="eyebrow light">Une question, une taille à vérifier ?</p>
+        <h2>Écrivez-nous sur WhatsApp</h2>
+        <p class="phone"><span id="phoneTxt">+227 99 56 56 03</span>
+          <button class="copy" id="copyPhone" type="button">Copier</button></p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-white" href="https://wa.me/22799565603" target="_blank" rel="noopener">Ouvrir WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+22799565603">Appeler</a>
+      </div>
+    </div></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="brand foot-brand">
+      <img src="images/logo-icon.png" alt="" width="40" height="39" loading="lazy">
+      <span class="brand-text"><span class="b-yara">Yara</span> <span class="b-shop">Shop</span><small>Au bonheur des enfants</small></span>
+    </div>
+    <p>© <span id="year">2026</span> Yara Shop. Tous droits réservés.</p>
+    <p class="credit">Site réalisé par <a href="https://rougatech.com" target="_blank" rel="noopener">RougaTech</a></p>
+  </div>
+</footer>
+
+<!-- WhatsApp flottant -->
+<a class="wa-float" href="https://wa.me/22799565603" target="_blank" rel="noopener" aria-label="Écrire à Yara Shop sur WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3Z"/></svg>
+</a>
+
+<!-- Fiche produit -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <button class="x" type="button" data-close aria-label="Fermer">×</button>
+    <div class="m-media"><img id="mImg" src="" alt=""></div>
+    <div class="m-body">
+      <p class="eyebrow" id="mCat"></p>
+      <h3 id="mTitle"></h3>
+      <p class="m-desc" id="mDesc"></p>
+      <p class="m-price" id="mPrice"></p>
+      <div class="field" id="mColorsWrap">
+        <span class="label">Couleur : <b id="mColorName"></b></span>
+        <div class="swatches" id="mColors"></div>
+      </div>
+      <div class="field">
+        <label class="label" for="mSize" id="mSizeLabel">Taille</label>
+        <select id="mSize"></select>
+      </div>
+      <div class="field qty-field">
+        <span class="label">Quantité</span>
+        <div class="qty"><button type="button" id="qMinus" aria-label="Moins">−</button><output id="mQty">1</output><button type="button" id="qPlus" aria-label="Plus">+</button></div>
+      </div>
+      <button class="btn btn-primary full" id="mAdd" type="button">Ajouter au panier</button>
+      <p class="m-hint">Taille à confirmer avec nous sur WhatsApp si vous hésitez.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Panier -->
+<aside class="drawer" id="drawer" hidden>
+  <div class="modal-backdrop" data-cclose></div>
+  <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+    <div class="drawer-head">
+      <h3 id="cartTitle">Votre panier</h3>
+      <button class="x" type="button" data-cclose aria-label="Fermer le panier">×</button>
+    </div>
+    <div class="drawer-body" id="cartList"></div>
+    <div class="drawer-foot">
+      <label class="label" for="cName">Votre nom (facultatif)</label>
+      <input id="cName" type="text" placeholder="Ex. Aïcha" autocomplete="name">
+      <label class="label" for="cNote">Quartier ou précision (facultatif)</label>
+      <input id="cNote" type="text" placeholder="Ex. livraison à domicile, quartier…">
+      <a class="btn btn-wa full" id="sendWa" href="#" target="_blank" rel="noopener">Envoyer la commande sur WhatsApp</a>
+      <p class="m-hint">Votre message s'ouvre dans WhatsApp avec la liste des articles. Rien n'est payé en ligne.</p>
+    </div>
+  </div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
